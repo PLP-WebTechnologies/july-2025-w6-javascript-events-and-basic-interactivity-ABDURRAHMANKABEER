@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Interactive Web Page with JavaScript Event Handling, Dark Mode Toggle, FAQ Section, and Form Validation">
+        <title>Interactive JS Assignment</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Interactive Web Page</h1>
+            <nav>
+                <a href="#toggleMessageBtn">Message</a> |
+                <a href="#faq-section">FAQ</a> |
+                <a href="#form-validation">Form Validation</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <!-- Part 1: Event Handling -->
+                <button id="toggleMessageBtn">Click Me</button>
+                <p id="message" class="hidden">You clicked the button and it's working</p>
+            </section>
+
+            <!-- Part 2: Interactive Elements -->
+            <section>
+                <h2>🌙 Light/Dark Mode Toggle</h2>
+                <button id="themeToggle">Toggle Dark Mode</button>
+            </section>
+
+            <section id="faq-section">
+                <h2>❓ FAQ</h2>
+                <div class="faq">
+                    <h3 class="faq-question">What is interactive web page</h3>
+                    <p class="faq-answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum vero sint aliquam iusto natus voluptates optio sed voluptas, quo at explicabo minus.</p>
+                </div>
+            </section>
+
+            <!-- Part 3: Form Validation -->
+            <section id="form-validation">
+                <h2>Sign Up Form</h2>
+                <form id="signupForm">
+                    <label>Name: <input type="text" id="name" required></label><br>
+                    <label>Email: <input type="email" id="email" required></label><br>
+                    <label>Password: <input type="password" id="password" required></label><br>
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="formFeedback"></p>
+            </section>
+
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

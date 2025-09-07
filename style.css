@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+.hidden { display: none; }
+.dark-mode { background: #222; color: #fff; }
+.faq-question { cursor: pointer; color: blue; }
+.faq-answer { margin-left: 10px; }
+.error { color: red; }
+.success { color: green; }
